@@ -12,6 +12,7 @@ Project structure
 ![image](https://user-images.githubusercontent.com/16181086/214821354-44369d5c-0ac5-4d4a-8e76-82982d3bc038.png)
 
 Run/Debug
-![image](https://user-images.githubusercontent.com/16181086/214821915-d43c092d-a2c7-4a29-8e42-e28916fc7583.png)
+![image](https://user-images.githubusercontent.com/16181086/214823047-af7dc231-7761-49ef-a2fd-31e108b48304.png)
+
 
 
