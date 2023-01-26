@@ -18,3 +18,8 @@ Run/Debug
 
 The web application also includes a caching mechanism to reduce latency and improve performance. This mechanism is implemented to cache similar search results, so that when a user performs a search that has been previously done, the web application can retrieve the results from the cache instead of querying the back-end and the database again. This helps to reduce the latency of the application and improve the overall user experience. The cache is updated every time the search term is changed by the user and new results are retrieved from the back-end.
 ![image](https://user-images.githubusercontent.com/16181086/214825226-f88ecb42-f816-4c8e-ac80-87e4b8dec2d2.png)
+
+Front-end
+implementation of autocomplete component found here
+![image](https://user-images.githubusercontent.com/16181086/214827873-525819bf-3a4a-48f4-8343-1dbf226fa8a2.png)
+
