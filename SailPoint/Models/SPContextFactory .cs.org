@@ -1,0 +1,21 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace SailPoint.Models
+{
+
+    public class JobsContextFactory : IDesignTimeDbContextFactory<SPDBContext>
+    {
+        public SPDBContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<SPDBContext>();
+            optionsBuilder.UseSqlite("Data Source=data\\SPoint.db");
+
+            return new SPDBContext(optionsBuilder.Options);
+        }
+    }
+}

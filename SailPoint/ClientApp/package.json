@@ -1,0 +1,24 @@
+{
+  "name": "pandologicvueclient",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "echo Starting the development server && vite --host ::",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "vue": "^3.2.41",
+    "vue-google-charts": "^1.1.0",
+    "vue-router": "^4.1.6",
+    "vue3-googl-chart": "^0.0.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.2.0",
+    "vite": "^3.2.0"
+  }
+}
