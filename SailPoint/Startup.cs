@@ -26,16 +26,13 @@ namespace SailPoint
 
             services.AddControllersWithViews();
 
-            // In production, the React files will be served from this directory
+            // In production, the Vue files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
-                configuration.RootPath = "ClientApp/build";
+                configuration.RootPath = "ClientApp/dist";
             });
             services.AddDbContext<SPDBContext>(options => options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             services.AddTransient<IDataAccessService, DataAccessService>();
-            //services.AddDbContextFactory<JobsDBContext>(
-            //options =>
-            //options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
 
         }
 
